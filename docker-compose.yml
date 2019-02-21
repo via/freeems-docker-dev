@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  freeems-toolchain:
+    build: 
+      context: freeems-toolchain
+    volumes:
+      - $FREEEMS_PATH:/freeems
+
